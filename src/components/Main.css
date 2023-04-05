@@ -1,0 +1,43 @@
+.roboto-bold-700 {
+   font-family: "Roboto", sans-serif;
+}
+
+.hero .card .cons .content {
+   max-width: calc(93.33333333333334% - 1rem);
+}
+footer .footer-wrap,
+.lima .card,
+.empat .card,
+.tiga .card,
+.dua .card {
+   max-width: calc(100% - 3rem);
+}
+
+@media only screen and (min-width: 600px) {
+   footer .footer-wrap,
+   .lima .card,
+   .empat .card,
+   .tiga .card,
+   .dua .card {
+      max-width: calc(100% - 3rem);
+   }
+}
+@media only screen and (min-width: 900px) {
+   footer .footer-wrap,
+   .lima .card,
+   .empat .card,
+   .tiga .card,
+   .dua .card {
+      max-width: calc(100% - 4rem);
+   }
+}
+
+@media only screen and (min-width: 1280px) {
+   footer .footer-wrap,
+   .lima .card,
+   .empat .card,
+   .tiga .card,
+   .dua .card {
+      max-width: calc(83.33333333333334% - 6rem);
+   }
+}
